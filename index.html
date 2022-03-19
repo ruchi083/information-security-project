@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Safe Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Welcome to your Smart Home</h1>
+  <h2 id="title">Start your 🗣🎙 Device</h2>
+  <div class="set">
+    <button class="w drum">w</button>
+    <div class="form-popup" id="myForm">
+  <form action="/" class="form-container">
+    <h3>Here's a question for you:</h3>
+    <p id=ques></p>
+    <label for="que"></label>
+    <input type="text" id="ans" placeholder="Enter your Answer" name="ans" required>
+    <button type="submit" class="btn" onclick="Validate()">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+    <button class="a drum">a</button>
+    <button class="s drum">s</button>
+    <button class="d drum">d</button>
+    <button class="j drum">j</button>
+    <button class="k drum">k</button>
+    <button class="l drum">l</button>
+  </div>
+
+
+<script src="index.js" charset="utf-8"></script>
+
+<footer>
+  Made with ❤️ by Ruchi
+</footer>
+</body>
+</html>
